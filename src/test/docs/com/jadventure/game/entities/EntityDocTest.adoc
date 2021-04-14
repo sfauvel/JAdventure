@@ -1,0 +1,4 @@
+:nofooter:
+= Entity doc test
+
+include::EntityDocTest.testStorage.approved.adoc[leveloffset=+1]

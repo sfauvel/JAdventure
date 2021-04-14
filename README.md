@@ -2,6 +2,18 @@
 ==============================================
 
 
+Doc as test Coding Dojo
+-------------
+You can experiment doc as test on this project.
+
+To make it works, we have to modify the project:
+ * Upgrade Java source and target to 1.8
+ * Add org.sfvl.documentationtesting dependency to the project.
+ * Create src/test/java/com/jadventure/game/DocGenerator.java to generate src/test/docs/index.adoc
+ * Create a simple test src/test/java/com/jadventure/game/entities/EntityDocTest.java
+
+**Warning**, project uses JUnit4 for tests but we uses JUnit5 for tests generating documentation.
+
 Description
 -------------
 JAdventure is a Java (text) based implementation of a

@@ -1,0 +1,13 @@
+:toc: left
+:nofooter:
+:stem:
+:source-highlighter: rouge
+
+
+
+
+= JAdventure
+
+
+
+include::com/jadventure/game/entities/EntityDocTest.adoc[leveloffset=+1]
