@@ -1,0 +1,14 @@
+[#com_jadventure_game_entities_EntityDocTest_testEquipItem_OneHanded]
+= TestEquipItem OneHanded
+
+Player damage without item is 30
+
+When equip player with item *wshi1*
+
+It returns:
+
+* damage: 3.0
+
+Player damage is now 33
+
+His equipement on RIGHT_HAND is wshi1

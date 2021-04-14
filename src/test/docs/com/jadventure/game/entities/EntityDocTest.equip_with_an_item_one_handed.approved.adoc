@@ -1,0 +1,42 @@
+[#com_jadventure_game_entities_EntityDocTest_equip_with_an_item_one_handed]
+= Equip with an item one handed
+
+[%header, cols="a,a,a"]
+|====
+| Initial State | Action | New State
+| Damage: 30
+
+Weight: 0
+
+Equipements:
+
+
+
+| Equip with wshi1
+
+[source, java, indent=0]
+----
+        result = entity.equipItem(
+                item.getPosition(),
+                item
+        );
+
+----
+
+* Id: wshi1
+* Name: shiv
+* Description: a small dagger
+* Position: RIGHT_HAND
+* Properties
+** damage: 3
+** value: 30
+** weight: 2
+| Damage: 33
+
+Weight: 0
+
+Equipements:
+
+* RIGHT_HAND: wshi1
+
+|====

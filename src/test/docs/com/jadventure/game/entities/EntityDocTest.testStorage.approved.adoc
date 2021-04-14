@@ -1,4 +1,0 @@
-[#com_jadventure_game_entities_EntityDocTest_testStorage]
-= TestStorage
-
-To implement

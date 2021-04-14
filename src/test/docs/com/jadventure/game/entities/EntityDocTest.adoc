@@ -1,4 +1,6 @@
 :nofooter:
 = Entity doc test
 
-include::EntityDocTest.testStorage.approved.adoc[leveloffset=+1]
+include::EntityDocTest.testEquipItem_OneHanded.approved.adoc[leveloffset=+1]
+
+include::EntityDocTest.equip_with_an_item_one_handed.approved.adoc[leveloffset=+1]
