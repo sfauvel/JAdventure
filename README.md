@@ -10,11 +10,14 @@ Interesting tests to refactor are: **EntityTest, StorageTest, ItemRepositoryTest
 
 Try to produce a document as readable as possible using [asciidoc formatting](https://asciidoctor.org/docs/asciidoc-writers-guide/#building-blocks-in-asciidoc).
 
-To make it works, we have to adapt the project:
+To make it works, we have adapted the project:
  * Upgrade Java source and target to 1.8
  * Add org.sfvl.documentationtesting dependency to the project.
  * Create src/test/java/com/jadventure/game/DocGenerator.java to generate src/test/docs/index.adoc
  * Create a simple test src/test/java/com/jadventure/game/entities/EntityDocTest.java
+
+If you want some information on the library used, you can see the 
+[documentation](https://sfauvel.github.io/documentationtesting/documentationtesting/index.html)
 
 **Warning**, project uses JUnit4 for tests but we uses JUnit5 for tests generating documentation.
 
